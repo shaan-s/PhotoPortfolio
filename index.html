@@ -1,0 +1,54 @@
+<script>
+function changecol(width) {
+  var cols = document.getElementsByClassName('column');
+  cols[0].style.flex = cols[1].style.flex = cols[2].style.flex = width;
+}
+</script>
+
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div id=bg></div>
+<title>Photography Portfolio</title>
+</head>
+<body onload="document.getElementById('content').style.visibility = 'visible'">
+  <div id=header>
+    <button onclick="changecol('0%')"><img class=headerimg onclick="
+" src="squares icon.png"></button>
+    <button onclick="changecol('100%')"><img class=headerimg src="square icon.png"></button>
+    </div>
+  <div id=content>
+    <div class="column" id=col1>
+      <!-- Location in Year. Camera (lens, format, film stock)-->
+      <img src="photos/img1.jpg"><div class=tooltip>Niagara, Ontario in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img4.jpg"><div class=tooltip>Waterloo, Ontario in 2023. Shot on Canon Rebel T3i</div>
+      <img src="photos/img18.jpg"><div class=tooltip>Snæfellsnes, Iceland in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img7.jpg"><div class=tooltip>Waterloo, Ontario in 2023. Shot on Canon Rebel T5</div>
+      <img src="photos/img10.jpg"><div class=tooltip>Waterloo, Ontario in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img15.jpg"><div class=tooltip>Quebec City in 2020. Shot on Sony WX350</div>
+      <img src="photos/maui2.jpg"><div class=tooltip>Maui, USA in 2023. Shot on Fujifilm XT20</div>
+    </div>
+    <div class="column">
+      <img src="photos/maui1.jpg"><div class=tooltip>Maui, USA in 2023. Shot on Fujifilm XT20</div>
+      <img src="photos/img2.jpg"><div class=tooltip>Lisbon, Portugal in 2019. Shot on Sony WX350</div>
+      <img src="photos/img5.jpg"><div class=tooltip>Waterloo, Ontario in 2023. Shot on Canon Rebel T3i (Helios 44-2)</div>
+      <img src="photos/img8.jpg"><div class=tooltip>Borgarnes, Iceland in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img11.jpg"><div class=tooltip>Skógafoss, Iceland in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img16.jpg"><div class=tooltip>Chicago, Illinois in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/oahu1.jpg"><div class=tooltip>Kauai, USA in 2024. Shot on Fujifilm XT20</div>
+      <img src="photos/img17.jpg"><div class=tooltip>Waterloo, Ontario in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img20.jpg"><div class=tooltip>Snæfellsnes, Iceland in 2022. Shot on Canon Rebel T3i</div>
+    </div>
+    <div class="column">
+      <img src="photos/img6.jpg"><div class=tooltip>Waterloo, Ontario in 2023. Shot on Canon Rebel T3i</div>
+      <img src="photos/img9.jpg"><div class=tooltip>Chicago, Illinois in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img12.jpg"><div class=tooltip>Sólheimasandur, Iceland in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/kauai.jpg"><div class=tooltip>Kauai, USA in 2023. Shot on Fujifilm XT20</div>
+      <img src="photos/fog2.jpg"><div class=tooltip>Waterloo, Ontario in 2024. Shot on Fujifilm XT20</div>
+      <img src="photos/img14.jpg"><div class=tooltip>Skaftafell, Iceland in 2022. Shot on Canon Rebel T3i</div>
+      <img src="photos/img3.jpg"><div class=tooltip>Madeira, Portugal in 2020. Shot on Sony WX350</div>
+      <img src="photos/fog3.jpg"><div class=tooltip>Waterloo, Ontario in 2024. Shot on Fujifilm XT20</div>
+
+  </div>
+</body>
